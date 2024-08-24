@@ -1,0 +1,25 @@
+/* Add custom styles for the application */
+.app {
+    text-align: center;
+}
+
+.character-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.character-item {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.character-item img {
+    width: 150px;
+    height: 150px;
+}
+
+.character-detail img {
+    width: 300px;
+    height: 300px;
+}
